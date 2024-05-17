@@ -162,3 +162,7 @@ cython_debug/
 # internal
 images/*
 results/*
+best.pt
+
+# license
+yolov9

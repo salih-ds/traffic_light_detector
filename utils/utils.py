@@ -13,3 +13,9 @@ def load_test_images(dir='images', file='test_image.zip',
         zip_ref.extractall(dir)
     
     os.remove(file)
+
+def load_weights():
+    gdownload(
+        "best.pt",
+        "https://drive.google.com/file/d/11qWfEky2ewFwO2NarjHSvA67zfV10PP1/view?usp=sharing"
+    )
