@@ -19,7 +19,7 @@ Kaggle соревнование:  [Traffic Light Detection](https://www.kaggle.c
 Обучение производилось на GPU A100. Лучший результат был получен при стандартных параметрах модели из коробки. Время обучения составило ~1.5 часа.
 
 Параметры обучения:
-- image size: 720px
+- image size: 736px
 - batch size: 18
 - epochs: 30
 - close-mosaic: 3
